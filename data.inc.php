@@ -14,7 +14,7 @@ $fields = [
     ],
     'Contact Information'     => [
         'primary caretaker',
-        'caretaker number' => false,
+        'caretaker number' => 'primary caretaker',
         'emergency contact',
         'contact number'   => false,
         'primary doctor',

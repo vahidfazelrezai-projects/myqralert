@@ -75,8 +75,8 @@ include 'header.inc.php';
 
                                 <?php
                                 $with_checkbox = true;
-                                if ($value === false) {
-                                    $with_checkbox = $value;
+                                if (!is_int($key)) {
+                                    $with_checkbox = false;
                                     $value = $key;
                                 }
                                 ?>
