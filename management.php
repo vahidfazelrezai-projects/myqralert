@@ -32,7 +32,7 @@ function field_input($name, $with_checkbox = true)
 
         foreach ($privacy as $privacy_level => $label) {
             $status = ($field_value['privacy'] == $privacy_level ? 'checked="checked"' : '');
-            $checkboxs .= '<input type="radio" name="info[' . $name . '][privacy]" class="toggle-on" value="' . $privacy_level . '" ' . $status . '"/>' . $label;
+            $checkboxs .= '<span><input type="radio" name="info[' . $name . '][privacy]" class="toggle-on" value="' . $privacy_level . '" ' . $status . '"/>' . $label . '</span>';
         }
         $html .= $checkboxs;
     }
@@ -70,7 +70,7 @@ include 'header.inc.php';
                     ?>
                     <fieldset>
                         <div class="well">
-                            <legend><?php echo $field; ?></legend>
+                            <legend><span><?php echo $field; ?></span></legend>
                             <?php foreach ($data as $key => $value) { ?>
                                 <div class="field">
                                     <label><?php echo $value; ?></label>

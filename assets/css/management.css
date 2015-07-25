@@ -33,17 +33,21 @@ legend {
 	font-weight: bold;
 	letter-spacing: 8px;
 	text-transform: uppercase;
-	padding-top: 60px;
-	height: 130px;
+	padding-top: 90px;
+	height: 170px;
 }
 
 .well .field {
-	margin-left: 40px;
+	padding-left: 40px;
 	margin-bottom: 20px;
 }
 
 .field label {
 	text-transform: lowercase;
+}
+
+.field div span {
+	width: 10%;
 }
 
 input[type="text"] {
