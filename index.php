@@ -31,7 +31,7 @@ include 'header.inc.php';
         <br>
 
         <div class="col-lg-8">
-            <h2>When braclette IDs aren't an option, MyQR Alert provides the most reliable identification and health information retrieval for those suffering on later stages of alzheimers or dimensia</h2>
+            <h2>When bracelet IDs aren't an option, MyQR Alert provides the most reliable identification and health information retrieval for those suffering on later stages of alzheimer's or dementia.</h2>
         </div>
         <div class="col-lg-4">
         </div>
@@ -45,7 +45,7 @@ include 'header.inc.php';
     <div class="row">
         <div class="col-lg-3">
             <licon class="fa fa-qrcode" style="font-size:50px"></licon>
-            <h4>A SIMPLE TEMPORARY TATOO DESIGN.</h4>
+            <h4>A SIMPLE TEMPORARY TATTOO DESIGN.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
@@ -60,7 +60,7 @@ include 'header.inc.php';
         <!-- col-lg-3 -->
         <div class="col-lg-3">
             <licon class="fa fa-medkit" style="font-size:50px"></licon>
-            <h4>OR SCAN THE QR CODE TO INVESTIGATE FUTHER.</h4>
+            <h4>OR SCAN THE QR CODE TO INVESTIGATE FURTHER.</h4>
         </div>
         <!-- col-lg-3 -->
     </div>
@@ -144,8 +144,8 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                <span class="glyphicons glyphicons-qrcode"></span>
-                                Uninversal QR Code
+                                <span class="fa fa-qrcode" style="color:#1abc9c; font-size:35px; padding-right:20px"></span>
+                                Universal QR Code
                             </a>
                         </div>
                         <!-- /accordion-heading -->
