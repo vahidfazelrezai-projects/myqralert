@@ -426,13 +426,13 @@ include 'header.inc.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-4 centered">
-                <h3>Al Headquarters</h3>
+                <h3>Alzheimer's Association Headquarters</h3>
                 <br>
 
-                <p>Winchester 987, <br/>
-                    New York, NY <br/>
-                    Tel.: 609 984236 <br/>
-                    hello@yourmail.com
+                <p>480 Pleasant St, <br/>
+                    Watertown, MA <br/>
+                    Tel.: (617) 868-6718 <br/>
+                    info@alz.org
                 </p>
             </div>
 
@@ -441,8 +441,8 @@ include 'header.inc.php';
                 <br>
 
                 <p><img class="centered img-circle" src="assets/img/pic.jpg" alt="" width="50px" height="50px"></p>
-                <p><i></i></p>
-                <p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</i></p>
+                <p><i>Mike </i></p>
+                <p><i>I want my family to always know that I'm safe.</i></p>
             </div>
 
             <div class="col-lg-4 centered">

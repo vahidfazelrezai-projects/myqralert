@@ -167,7 +167,7 @@ p {
 }
 
 #section01 {
-	background: url(../img/section01.jpg) no-repeat center top;
+	background: url(../img/section1.jpg) no-repeat center top;
 	padding-top:80px;
 	text-align:center;
 	background-attachment: relative;
@@ -197,7 +197,7 @@ p {
 }
 
 #section02 {
-	background: url(../img/section02.jpg) no-repeat center top;
+	background: url(../img/section2.jpg) no-repeat center top;
 	padding-top:80px;
 	text-align:center;
 	background-attachment: relative;
@@ -227,7 +227,7 @@ p {
 }
 
 #section03 {
-	background: url(../img/section03.jpg) no-repeat center top;
+	background: url(../img/section3.jpg) no-repeat center top;
 	padding-top:80px;
 	text-align:center;
 	background-attachment: relative;
