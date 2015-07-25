@@ -44,22 +44,22 @@ include 'header.inc.php';
 <div class="container features">
     <div class="row">
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-qrcode"></licon>
+            <licon class="fa fa-qrcode" style="font-size:50px"></licon>
             <h4>A SIMPLE TEMPORARY TATOO DESIGN.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-erase"></licon>
+            <licon class="fa fa-eye-slash" style="font-size:50px"></licon>
             <h4>EASY TO APPLY WHERE IT CAN BE HIDDEN FROM PATIENT VIEW.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-activity"></licon>
+            <licon class="fa fa-search" style="font-size:50px"></licon>
             <h4>VIEW VITAL INFORMATION IMMEDIATELY...</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-medicine"></licon>
+            <licon class="fa fa-medkit" style="font-size:50px"></licon>
             <h4>OR SCAN THE QR CODE TO INVESTIGATE FUTHER.</h4>
         </div>
         <!-- col-lg-3 -->
