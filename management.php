@@ -112,6 +112,7 @@ include 'header-user.inc.php';
         <div class="text-center">
             <input type="submit" value="save"/>
         </div>
+        <br />
     </form>
 </div>
 
