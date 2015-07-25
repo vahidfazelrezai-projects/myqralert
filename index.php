@@ -8,14 +8,15 @@ include 'header.inc.php';
 <section id="home" name="home" class="scrollspy"></section>
 <div id="headerwrap">
     <div class="container">
-        <div class="col-lg-8">
+        <div style="margin-top: -50px;" class="col-lg-8">
             <h1>MyQR Alert</h1>
             <p class="hidden-xs">The physical connection between your health information and health professionals
+            <img width="700px" src="assets/img/aa-logo.png">
         </div>
         <!-- col-lg-4 -->
         <div class="col-lg-4">
             <div class="phonefront">
-                <img class="img-responsive" src="assets/img/320x612.png">
+                <img width="300px" class="img-responsive" src="assets/img/iphone-steve-found.png">
             </div>
         </div>
         <!-- col-lg-4 -->
@@ -425,7 +426,7 @@ include 'header.inc.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-4 centered">
-                <h3>Our Headquarters</h3>
+                <h3>Al Headquarters</h3>
                 <br>
 
                 <p>Winchester 987, <br/>
@@ -440,7 +441,7 @@ include 'header.inc.php';
                 <br>
 
                 <p><img class="centered img-circle" src="assets/img/pic.jpg" alt="" width="50px" height="50px"></p>
-
+                <p><i></i></p>
                 <p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</i></p>
             </div>
 
