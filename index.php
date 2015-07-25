@@ -44,22 +44,22 @@ include 'header.inc.php';
 <div class="container features">
     <div class="row">
         <div class="col-lg-3">
-            <licon class="li_diamond"></licon>
+            <licon class="glyphicon glyphicon-qrcode"></licon>
             <h4>A SIMPLE TEMPORARY TATOO DESIGN.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="li_heart"></licon>
+            <licon class="glyphicon glyphicon-erase"></licon>
             <h4>EASY TO APPLY WHERE IT CAN BE HIDDEN FROM PATIENT VIEW.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="li_phone"></licon>
+            <licon class="glyphicon glyphicon-activity"></licon>
             <h4>VIEW VITAL INFORMATION IMMEDIATELY...</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="li_lab"></licon>
+            <licon class="glyphicon glyphicon-medicine"></licon>
             <h4>OR SCAN THE QR CODE TO INVESTIGATE FUTHER.</h4>
         </div>
         <!-- col-lg-3 -->
@@ -125,7 +125,7 @@ include 'header.inc.php';
 <!-- ========== SECTION DIVIDER 02 ========== -->
 <div id="section02">
     <div class="container">
-        <h1>Our team works hard for you.</h1>
+        <h1>MyOR Alert will save your life and the lives of those you love.</h1>
     </div>
     <!-- container -->
 </div><!-- section02 -->
