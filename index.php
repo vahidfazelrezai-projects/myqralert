@@ -31,7 +31,7 @@ include 'header.inc.php';
         <br>
 
         <div class="col-lg-8">
-            <h2>When braclette IDs aren't an option, MyQR Alert provides the most reliable identification and health information retrieval for those suffering on later stages of alzheimers or dimensia</h2>
+            <h2>When bracelet IDs aren't an option, MyQR Alert provides the most reliable identification and health information retrieval for those suffering on later stages of alzheimer's or dementia.</h2>
         </div>
         <div class="col-lg-4">
         </div>
@@ -44,23 +44,23 @@ include 'header.inc.php';
 <div class="container features">
     <div class="row">
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-qrcode"></licon>
-            <h4>A SIMPLE TEMPORARY TATOO DESIGN.</h4>
+            <licon class="fa fa-qrcode" style="font-size:50px"></licon>
+            <h4>A SIMPLE TEMPORARY TATTOO DESIGN.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-erase"></licon>
+            <licon class="fa fa-eye-slash" style="font-size:50px"></licon>
             <h4>EASY TO APPLY WHERE IT CAN BE HIDDEN FROM PATIENT VIEW.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-activity"></licon>
+            <licon class="fa fa-search" style="font-size:50px"></licon>
             <h4>VIEW VITAL INFORMATION IMMEDIATELY...</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="glyphicon glyphicon-medicine"></licon>
-            <h4>OR SCAN THE QR CODE TO INVESTIGATE FUTHER.</h4>
+            <licon class="fa fa-medkit" style="font-size:50px"></licon>
+            <h4>OR SCAN THE QR CODE TO INVESTIGATE FURTHER.</h4>
         </div>
         <!-- col-lg-3 -->
     </div>
@@ -102,19 +102,6 @@ include 'header.inc.php';
     <br>
     <br>
 
-    <div id="ac-wrapper" class="ac-wrapper">
-        <div class="ac-device">
-            <a href="#"><img src="assets/img/screens/screen4.jpg"/></a>
-
-            <h3 class="ac-title">Pssst! Try to click the image.</h3>
-        </div>
-        <div class="ac-grid">
-            <a href="#"><img src="assets/img/screens/screen2.jpg"/><span>Awesome showcase script.</span></a>
-            <a href="#"><img src="assets/img/screens/screen1.jpg"/><span>Ideal for any app.</span></a>
-            <a href="#"><img src="assets/img/screens/screen3.jpg"/><span>Truly fashion design.</span></a>
-            <a href="#"><img src="assets/img/screens/screen4.jpg"/><span>It's cool, you know it.</span></a>
-        </div>
-    </div>
     <!-- ac-wrapper -->
     <br>
     <br>
@@ -125,7 +112,7 @@ include 'header.inc.php';
 <!-- ========== SECTION DIVIDER 02 ========== -->
 <div id="section02">
     <div class="container">
-        <h1>MyOR Alert will save your life and the lives of those you love.</h1>
+        <h1>MyQR Alert will save your life and the lives of those you love.</h1>
     </div>
     <!-- container -->
 </div><!-- section02 -->
@@ -140,14 +127,14 @@ include 'header.inc.php';
             <br>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <h2 class="centered">FREQUENTLY ASKED QUESTIONS.</h2>
+                <h2 class="centered">FEATURES.</h2>
                 <hr>
                 <br>
                 <br>
             </div>
             <!-- col-lg-6 -->
             <div class="col-lg-6" style="text-align: left">
-                <img class="img-responsive" src="assets/img/animation.gif">
+                <img class="img-responsive" src="assets/img/simple-tattoo-gif.gif" dynsrc="assets/img/simple-tattoo-gif.gif" loop="infinite" style="width:70%; margin: auto;">
             </div>
             <!-- col-lg-6 -->
 
@@ -157,16 +144,14 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                <licon class="li_diamond"></licon>
-                                First Class Design
+                                <span class="fa fa-qrcode" style="color:#1abc9c; font-size:35px; padding-right:20px"></span>
+                                Universal QR Code
                             </a>
                         </div>
                         <!-- /accordion-heading -->
                         <div id="collapseOne" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Easily recognizable as QR code can be quickly scanned by anyone with a smartphone.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -179,14 +164,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
                                 <licon class="li_display"></licon>
-                                Retina Ready Theme
+                                Customizable Portable
                             </a>
                         </div>
                         <div id="collapseTwo" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Portal with customized information.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -199,14 +182,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
                                 <licon class="li_like"></licon>
-                                Awesome Support
+                                Emergency Contact
                             </a>
                         </div>
                         <div id="collapseThree" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Emergency contact listed for quick access to caregiver or Medicalert hotline.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -219,14 +200,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
                                 <licon class="li_phone"></licon>
-                                Responsive Design
+                                Caregiver Notifications
                             </a>
                         </div>
                         <div id="collapseFour" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>A scan of the patient's QR code automatically triggers a notification to the primary caregiver with an alert that the patient has been scanned and a precise location of the scan.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>

@@ -33,7 +33,7 @@ function field_value($name, $key = null)
         return 'This information is private';
     }
 
-    return $field_value['value'];
+    return is_null($field_value['value']) || $field_value['value'] == '' ? '<span style="color:#AAA">Not entered</span>' : $field_value['value'];
 }
 
 ?>
@@ -69,7 +69,7 @@ include 'header-user.inc.php';
                                 }
                                 ?>
                                 <div class="field">
-                                    <label><?php echo $value; ?></label>
+                                    <label><?php echo ucfirst($value); ?></label>
 
                                     <div>
                                         <?php echo field_value($value, $linked_to); ?>
@@ -84,7 +84,7 @@ include 'header-user.inc.php';
                     ?>
                     <div class="well">
                         <div class="field">
-                            <label><?php echo $data; ?></label>
+                            <label><?php echo ucfirst($data); ?></label>
 
                             <div>
                                 <?php echo field_value($data); ?>

@@ -84,6 +84,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	color: #333;
+	text-decoration: none;
 }
 
 .accordion-heading a:hover {
