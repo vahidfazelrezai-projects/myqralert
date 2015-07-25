@@ -1,0 +1,73 @@
+
+input[type="submit"] {
+	height: 50px;
+	width: 100%;
+	-webkit-appearance: none;
+	background-color: #1ABC9C;
+	color: white;
+	border-style: none;
+}
+
+input[type="submit"]:hover {
+	background-color: #48C9B0;
+}
+
+input[type="submit"]:active {
+	background-color: #15967D;
+}
+
+#profile-management {
+	font-family: 'Raleway', sans-serif;
+	margin-top: -15px;
+}
+
+.well {
+	padding: 0px;
+}
+
+legend {
+	background-color: #222222;
+	color: white;
+	padding-left: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	padding-top: 90px;
+	height: 170px;
+}
+
+.well .field {
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.field label {
+	text-transform: lowercase;
+}
+
+.field div span {
+	width: 10%;
+}
+
+input[type="text"] {
+	width: 70%;
+	height: 46px;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	border-radius: 0px;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	display: inline;
+	padding: 6px 12px;
+	line-height: 1.428571429;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+input[type="radio"] {
+	margin-left: 20px;
+	margin-right: 5px;
+}

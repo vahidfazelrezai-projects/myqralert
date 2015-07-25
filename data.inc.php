@@ -7,17 +7,26 @@ define('FILE_MANAGEMENT', 'data.json');
  * Configuration of fields for the page
  */
 $fields = [
-    'Basic Information' => [
-        'Name',
-        'Birth Date',
-        'Blood Sign'
+    'Basic Information'       => [
+        'name',
+        'birth date',
+        'blood type'
     ],
-    'Field 1',
-    'Category'          => [
-        'Category - Field',
-        'Category - Field 2'
+    'Contact Information'     => [
+        'primary caretaker',
+        'caretaker number' => 'primary caretaker',
+        'emergency contact',
+        'contact number'   => 'emergency contact',
+        'primary doctor',
+        'doctor number'    => 'primary doctor',
     ],
-    'Field 3'
+    'Medical Details Details' => [
+        'medical issues',
+        'medications',
+        'other treatments',
+        'allergies',
+
+    ]
 ];
 
 /**

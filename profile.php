@@ -20,35 +20,22 @@ $loaded_information = read_data();
  * @param bool|true $with_checkbox
  * @return string
  */
-function field_input($name, $with_checkbox = true)
+function field_value($name, $key = null)
 {
-    global $loaded_information, $privacy;
+    global $loaded_information;
 
     $field_value = isset($loaded_information[$name]) ? $loaded_information[$name] : ['value' => null, 'privacy' => 'public'];
-
-    $html = '<input type="text" name="info[' . $name . '][value]" value="' . htmlentities($field_value['value']) . '" placeholder="' . $name . '" />';
-    if ($with_checkbox === true) {
-        $checkboxs = '';
-
-        foreach ($privacy as $privacy_level => $label) {
-            $status = ($field_value['privacy'] == $privacy_level ? 'checked="checked"' : '');
-            $checkboxs .= '<span><input type="radio" name="info[' . $name . '][privacy]" class="toggle-on" value="' . $privacy_level . '" ' . $status . '"/>' . $label . '</span>';
-        }
-        $html .= $checkboxs;
+    if ($field_value != null && !isset($field_value['privacy']) && !is_null($key) && isset($loaded_information[$key]) && isset($loaded_information[$key]['privacy'])) {
+        $field_value['privacy'] = $loaded_information[$key]['privacy'];
     }
 
-    return $html;
+    if (isset($field_value['privacy']) && $field_value['privacy'] == 'private') {
+        return 'This information is private';
+    }
+
+    return $field_value['value'];
 }
 
-/**
- * Logic to save the form into a file if triggered
- */
-if (isset($_POST['info'])) {
-    save_data($_POST['info']);
-
-    header("Location:management.php");
-    exit;
-}
 ?>
 
 <?php
@@ -59,7 +46,7 @@ if (isset($_POST['info'])) {
 
 <?php
 
-$url = 'management';
+$url = 'profile';
 include 'header-user.inc.php';
 ?>
 
@@ -72,13 +59,12 @@ include 'header-user.inc.php';
                     ?>
                     <fieldset>
                         <div class="well">
-                            <legend><span><?php echo $field; ?></span></legend>
-                            <?php foreach($data as $key => $value) { ?>
-
+                            <legend><?php echo $field; ?></legend>
+                            <?php foreach ($data as $key => $value) { ?>
                                 <?php
-                                $with_checkbox = true;
+                                $linked_to = null;
                                 if (!is_int($key)) {
-                                    $with_checkbox = false;
+                                    $linked_to = $value;
                                     $value = $key;
                                 }
                                 ?>
@@ -86,12 +72,13 @@ include 'header-user.inc.php';
                                     <label><?php echo $value; ?></label>
 
                                     <div>
-                                        <?php echo field_input($value, $with_checkbox); ?>
+                                        <?php echo field_value($value, $linked_to); ?>
                                     </div>
                                 </div>
                             <?php } ?>
                         </div>
                     </fieldset>
+                    <br/>
                     <?php
                 } else {
                     ?>
@@ -100,10 +87,11 @@ include 'header-user.inc.php';
                             <label><?php echo $data; ?></label>
 
                             <div>
-                                <?php echo field_input($data); ?>
+                                <?php echo field_value($data); ?>
                             </div>
                         </div>
                     </div>
+                    <br/>
                     <?php
                 }
             }
