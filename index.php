@@ -102,19 +102,6 @@ include 'header.inc.php';
     <br>
     <br>
 
-    <div id="ac-wrapper" class="ac-wrapper">
-        <div class="ac-device">
-            <a href="#"><img src="assets/img/screens/screen4.jpg"/></a>
-
-            <h3 class="ac-title">Pssst! Try to click the image.</h3>
-        </div>
-        <div class="ac-grid">
-            <a href="#"><img src="assets/img/screens/screen2.jpg"/><span>Awesome showcase script.</span></a>
-            <a href="#"><img src="assets/img/screens/screen1.jpg"/><span>Ideal for any app.</span></a>
-            <a href="#"><img src="assets/img/screens/screen3.jpg"/><span>Truly fashion design.</span></a>
-            <a href="#"><img src="assets/img/screens/screen4.jpg"/><span>It's cool, you know it.</span></a>
-        </div>
-    </div>
     <!-- ac-wrapper -->
     <br>
     <br>
@@ -125,7 +112,7 @@ include 'header.inc.php';
 <!-- ========== SECTION DIVIDER 02 ========== -->
 <div id="section02">
     <div class="container">
-        <h1>MyOR Alert will save your life and the lives of those you love.</h1>
+        <h1>MyQR Alert will save your life and the lives of those you love.</h1>
     </div>
     <!-- container -->
 </div><!-- section02 -->

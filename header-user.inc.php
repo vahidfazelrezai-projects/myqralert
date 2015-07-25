@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Diamond - Bootstrap 3 App Landing</title>
+    <title>MyQR Alerts</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li <?php if($url == 'profile') { ?>class="active"<?php } ?>><a href="profile.php" class="smoothScroll">Profile</a></li>
+                        <li <?php if($url == 'profile') { ?>class="active"<?php } ?>><a href="found.php" class="smoothScroll">Profile</a></li>
                         <li <?php if($url == 'management') { ?>class="active"<?php } ?>><a href="management.php" class="smoothScroll">Edit</a></li>
                     </ul>
                 </div>
