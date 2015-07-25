@@ -72,11 +72,19 @@ include 'header.inc.php';
                         <div class="well">
                             <legend><span><?php echo $field; ?></span></legend>
                             <?php foreach ($data as $key => $value) { ?>
+
+                                <?php
+                                $with_checkbox = true;
+                                if ($value === false) {
+                                    $with_checkbox = $value;
+                                    $value = $key;
+                                }
+                                ?>
                                 <div class="field">
                                     <label><?php echo $value; ?></label>
 
                                     <div>
-                                        <?php echo field_input($value); ?>
+                                        <?php echo field_input($value, $with_checkbox); ?>
                                     </div>
                                 </div>
                             <?php } ?>
