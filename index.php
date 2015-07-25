@@ -9,10 +9,8 @@ include 'header.inc.php';
 <div id="headerwrap">
     <div class="container">
         <div class="col-lg-8">
-            <h1>THIS IS NOT ANOTHER BORING LANDING PAGE THEME!</h1>
-
-            <p class="hidden-xs">A brand new Bootstrap 3 landing page. Created using the best framework. This theme comes with a clean and modern design. Includes awesome
-                animations & effects. The best option for your mobile app page.</p>
+            <h1>MyQR Alert</h1>
+            <p class="hidden-xs">The physical connection between your health information and health professionals
         </div>
         <!-- col-lg-4 -->
         <div class="col-lg-4">
@@ -32,7 +30,7 @@ include 'header.inc.php';
         <br>
 
         <div class="col-lg-8">
-            <h2>CREATE THE BEST PRESENTATION PAGE FOR YOUR APP. A NEW EXPERIENCE FOR YOUR USERS.</h2>
+            <h2>When braclette IDs aren't an option, MyQR Alert provides the most reliable identification and health information retrieval for those suffering on later stages of alzheimers or dimensia</h2>
         </div>
         <div class="col-lg-4">
         </div>
@@ -46,22 +44,22 @@ include 'header.inc.php';
     <div class="row">
         <div class="col-lg-3">
             <licon class="li_diamond"></licon>
-            <h4>FIRST CLASS DESIGN. SHOW YOUR APP WITH STYLE.</h4>
+            <h4>A SIMPLE TEMPORARY TATOO DESIGN.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
             <licon class="li_heart"></licon>
-            <h4>CRAFTED WITH LOVE FOR YOUR APP NEEDS.</h4>
+            <h4>EASY TO APPLY WHERE IT CAN BE HIDDEN FROM PATIENT VIEW.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
             <licon class="li_phone"></licon>
-            <h4>RESPONSIVE & RETINA DISPLAY READY.</h4>
+            <h4>VIEW VITAL INFORMATION IMMEDIATELY...</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
             <licon class="li_lab"></licon>
-            <h4>USING THE FINEST FRAMEWORK IN THE WORLD.</h4>
+            <h4>OR SCAN THE QR CODE TO INVESTIGATE FUTHER.</h4>
         </div>
         <!-- col-lg-3 -->
     </div>
@@ -72,7 +70,7 @@ include 'header.inc.php';
 <!-- ========== SECTION DIVIDER 01 ========== -->
 <div id="section01">
     <div class="container">
-        <h1>Your app deserves the best landing page.</h1>
+        <h1>We're concerned about making the lives of families and caregivers easier.</h1>
     </div>
     <!-- container -->
 </div><!-- section01 -->
@@ -86,17 +84,15 @@ include 'header.inc.php';
         <br>
 
         <div class="col-lg-6 col-lg-offset-3">
-            <h2 class="centered">QUALITY MEETS LANDING PAGE.</h2>
+            <h2 class="centered">WHY MyQR ALERT?.</h2>
             <hr>
             <br>
 
-            <p>Any web page that you purposely send traffic to is a ‘landing page’. It’s the page where people end up after they click on a PPC ad, a tweet, an email, or after they
-                scan a QR code – just to name a few.</p>
+            <p>Medical IDs have become a widely used tool in the medical industry for ensuring the safety of medial patients by first responders and health professionals. Medical IDs provide reference to patient information quickly at times where every second counts.</p>
 
-            <p>While you could simply direct this campaign traffic to your homepage or a product page within your website, this doesn’t usually yield the best results.</p>
+            <p>MyQR Alert is medical identification carefuly tailored for patients suffering from later stages of Alzheimers Disease and Dimensia.</p>
 
-            <p>The page where someone lands after the click has enormous potential to influence whether or not that visitor eventually converts into a lead or sale. Too often,
-                marketers focus most of their attention and budget on attracting and driving good traffic, but that’s really only half of the equation.</p>
+            <p>Not only is MyQR ALert helpful, but it's secure, only displaying your private information to medical professionals within the geolocal vacinity of a medical facility.</p>
         </div>
         <!-- col-lg-6 -->
     </div>
