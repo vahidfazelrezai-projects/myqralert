@@ -58,7 +58,9 @@ if (isset($_POST['info'])) {
 ?>
 
 <?php
-include 'header.inc.php';
+
+$url = 'management';
+include 'header-user.inc.php';
 ?>
 
 <div id="profile-management">
@@ -71,7 +73,7 @@ include 'header.inc.php';
                     <fieldset>
                         <div class="well">
                             <legend><span><?php echo $field; ?></span></legend>
-                            <?php foreach ($data as $key => $value) { ?>
+                            <?php foreach($data as $key => $value) { ?>
 
                                 <?php
                                 $with_checkbox = true;
@@ -90,7 +92,6 @@ include 'header.inc.php';
                             <?php } ?>
                         </div>
                     </fieldset>
-                    <br/>
                     <?php
                 } else {
                     ?>
@@ -103,7 +104,6 @@ include 'header.inc.php';
                             </div>
                         </div>
                     </div>
-                    <br/>
                     <?php
                 }
             }

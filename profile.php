@@ -45,7 +45,9 @@ function field_value($name, $key = null)
 ?>
 
 <?php
-include 'header.inc.php';
+
+$url = 'profile';
+include 'header-user.inc.php';
 ?>
 
 <div id="profile-management">

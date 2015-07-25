@@ -16,9 +16,9 @@ $fields = [
         'primary caretaker',
         'caretaker number' => 'primary caretaker',
         'emergency contact',
-        'contact number'   => false,
+        'contact number'   => 'emergency contact',
         'primary doctor',
-        'doctor number'    => false,
+        'doctor number'    => 'primary doctor',
     ],
     'Medical Details Details' => [
         'medical issues',
