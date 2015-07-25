@@ -8,16 +8,25 @@ define('FILE_MANAGEMENT', 'data.json');
  */
 $fields = [
     'Basic Information' => [
-        'Name',
-        'Birth Date',
-        'Blood Sign'
+        'name',
+        'birth date',
+        'blood type'
     ],
-    'Field 1',
-    'Category'          => [
-        'Category - Field',
-        'Category - Field 2'
+    'Contact Informantion' => [
+        'primary caretaker',
+        'caretaker number',
+        'emergency contact',
+        'contact number',
+        'primary doctor',
+        'doctor number',
     ],
-    'Field 3'
+    'Medical Details Details' => [
+        'medical issues',
+        'medications',
+        'other treatments',
+        'allergies',
+
+    ]
 ];
 
 /**

@@ -16,6 +16,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/linecons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/management.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,400,300,700' rel='stylesheet' type='text/css'>

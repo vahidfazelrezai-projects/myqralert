@@ -26,13 +26,13 @@ function field_input($name, $with_checkbox = true)
 
     $field_value = isset($loaded_information[$name]) ? $loaded_information[$name] : ['value' => null, 'privacy' => 'public'];
 
-    $html = '<input type="text" name="info[' . $name . '][value]" value="' . htmlentities($field_value['value']) . '" placeholder="Enter your ' . $name . '" />';
+    $html = '<input type="text" name="info[' . $name . '][value]" value="' . htmlentities($field_value['value']) . '" placeholder="' . $name . '" />';
     if ($with_checkbox === true) {
         $checkboxs = '';
 
         foreach ($privacy as $privacy_level => $label) {
             $status = ($field_value['privacy'] == $privacy_level ? 'checked="checked"' : '');
-            $checkboxs .= ' <input type="radio" name="info[' . $name . '][privacy]" value="' . $privacy_level . '" ' . $status . '"/> ' . $label;
+            $checkboxs .= '<input type="radio" name="info[' . $name . '][privacy]" class="toggle-on" value="' . $privacy_level . '" ' . $status . '"/>' . $label;
         }
         $html .= $checkboxs;
     }
@@ -61,47 +61,48 @@ if (isset($_POST['info'])) {
 include 'header.inc.php';
 ?>
 
-<div class="container">
+<div id="profile-management">
     <form method="post">
-        <?php
-        foreach ($fields as $field => $data) {
-            if (is_array($data)) {
-                ?>
-                <fieldset>
-                    <div class="well">
-                        <legend><?php echo $field; ?></legend>
-                        <?php foreach ($data as $key => $value) { ?>
-                            <div class="field">
-                                <label><?php echo $value; ?></label>
+        <div id="fields-section">
+            <?php
+            foreach ($fields as $field => $data) {
+                if (is_array($data)) {
+                    ?>
+                    <fieldset>
+                        <div class="well">
+                            <legend><?php echo $field; ?></legend>
+                            <?php foreach ($data as $key => $value) { ?>
+                                <div class="field">
+                                    <label><?php echo $value; ?></label>
 
-                                <div>
-                                    <?php echo field_input($value); ?>
-                                    <hr/>
+                                    <div>
+                                        <?php echo field_input($value); ?>
+                                    </div>
                                 </div>
-                            </div>
-                        <?php } ?>
-                    </div>
-                </fieldset>
-                <br/>
-                <?php
-            } else {
-                ?>
-                <div class="well">
-                    <div class="field">
-                        <label><?php echo $data; ?></label>
+                            <?php } ?>
+                        </div>
+                    </fieldset>
+                    <br/>
+                    <?php
+                } else {
+                    ?>
+                    <div class="well">
+                        <div class="field">
+                            <label><?php echo $data; ?></label>
 
-                        <div>
-                            <?php echo field_input($data); ?>
+                            <div>
+                                <?php echo field_input($data); ?>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <br/>
-                <?php
+                    <br/>
+                    <?php
+                }
             }
-        }
-        ?>
+            ?>
+        </div>
         <div class="text-center">
-            <input type="submit" value="Submit Information"/>
+            <input type="submit" value="save"/>
         </div>
     </form>
 </div>
