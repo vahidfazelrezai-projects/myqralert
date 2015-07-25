@@ -48,7 +48,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
                         <li><a href="#showcase" class="smoothScroll">Showcase</a></li>
-                        <li><a href="#faq" class="smoothScroll">FAQ</a></li>
+                        <li><a href="#faq" class="smoothScroll">Features</a></li>
                         <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
                         <li><a href="#register" class="smoothScroll">Register</a></li>
                     </ul>

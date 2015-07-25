@@ -143,14 +143,14 @@ include 'header.inc.php';
             <br>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <h2 class="centered">FREQUENTLY ASKED QUESTIONS.</h2>
+                <h2 class="centered">FEATURES.</h2>
                 <hr>
                 <br>
                 <br>
             </div>
             <!-- col-lg-6 -->
             <div class="col-lg-6" style="text-align: left">
-                <img class="img-responsive" src="assets/img/animation.gif">
+                <img class="img-responsive" src="assets/img/simple-tattoo-gif.gif" dynsrc="assets/img/simple-tattoo-gif.gif" loop="infinite" style="width:70%; margin: auto;">
             </div>
             <!-- col-lg-6 -->
 
@@ -160,16 +160,14 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                <licon class="li_diamond"></licon>
-                                First Class Design
+                                <span class="glyphicons glyphicons-qrcode"></span>
+                                Uninversal QR Code
                             </a>
                         </div>
                         <!-- /accordion-heading -->
                         <div id="collapseOne" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Easily recognizable as QR code can be quickly scanned by anyone with a smartphone.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -182,14 +180,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
                                 <licon class="li_display"></licon>
-                                Retina Ready Theme
+                                Customizable Portable
                             </a>
                         </div>
                         <div id="collapseTwo" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Portal with customized information.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -202,14 +198,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
                                 <licon class="li_like"></licon>
-                                Awesome Support
+                                Emergency Contact
                             </a>
                         </div>
                         <div id="collapseThree" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>Emergency contact listed for quick access to caregiver or Medicalert hotline.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
@@ -222,14 +216,12 @@ include 'header.inc.php';
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
                                 <licon class="li_phone"></licon>
-                                Responsive Design
+                                Caregiver Notifications
                             </a>
                         </div>
                         <div id="collapseFour" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                    PageMaker including versions of Lorem Ipsum.</p>
+                                <p>A scan of the patient's QR code automatically triggers a notification to the primary caregiver with an alert that the patient has been scanned and a precise location of the scan.</p>
                             </div>
                             <!-- /accordion-inner -->
                         </div>
