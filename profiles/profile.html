@@ -1,0 +1,154 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+</head>
+<body>
+<style type="text/css">
+#ProfilePage
+{
+    /* Move it off the top of the page, then centre it horizontally */
+    margin: 50px auto;
+    width: 635px;
+
+/* For visibility. Delete me */
+border: 1px solid red;
+}
+
+#LeftCol
+{
+    /* Move it to the left */
+    float: left;
+
+    width: 200px;
+    text-align: center;
+
+    /* Move it away from the content */
+    margin-right: 20px;
+
+/* For visibility. Delete me */
+border: 1px solid brown;
+}
+
+#Photo
+{
+    /* Width and height of photo container */
+    width: 200px;
+    height: 200px;
+
+/* For visibility. Delete me */
+border: 1px solid green;
+}
+
+#PhotoOptions
+{
+    text-align: center;
+    width: 200px;
+
+/* For visibility. Delete me */
+border: 1px solid brown;
+}
+
+#Info
+{
+    width: 400px;
+    text-align: center;
+
+    /* Move it to the right */
+    float: right;
+
+/* For visibility. Delete me */
+border: 1px solid blue;
+}
+
+#Info strong
+{
+    /* Give it a width */
+    display: inline-block;
+    width: 100px;
+
+/* For visibility. Delete me */
+border: 1px solid orange;
+}
+
+#Info span
+{
+    /* Give it a width */
+    display: inline-block;
+    width: 250px;
+
+/* For visibility. Delete me */
+border: 1px solid purple;
+}
+</style>
+
+
+<div id="ProfilePage">
+    <div id="LeftCol">
+        <div id="Photo"></div>
+        <div id="ProfileOptions">
+        a
+        </div>
+    </div>
+    <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+    <div id="Info">
+        <p>
+            <strong>Name:</strong>
+            <span>Sirjon</span>
+        </p>
+        <p>
+            <strong>Name:</strong>
+            <span>Sirjon</span>
+        </p>
+        <p>
+            <strong>Name:</strong>
+            <span>Sirjon</span>
+        </p>
+        <p>
+            <strong>Name:</strong>
+            <span>Sirjon</span>
+        </p>
+        <p>
+            <strong>Name:</strong>
+            <span>Sirjon</span>
+        </p>
+    </div>
+
+    <!-- Needed because other elements inside ProfilePage have floats -->
+    <div style="clear:both"></div>
+</div>
+
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+    width : 100,
+    height : 100
+});
+
+function makeCode () {      
+    //var elText = document.getElementById("text");
+    //elText.value = window.location.href;
+    value = window.location.href;
+    
+    /*if (!elText.value) {
+        alert("Input a text");
+        elText.focus();
+        return;
+    }*/
+    
+    qrcode.makeCode(value);
+}
+
+makeCode();
+/*
+$("#text").
+    on("blur", function () {
+        makeCode();
+    }).
+    on("keydown", function (e) {
+        if (e.keyCode == 13) {
+            makeCode();
+        }
+    });*/
+</script>
+</body>
+</html>
