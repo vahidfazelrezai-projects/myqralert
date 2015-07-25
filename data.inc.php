@@ -7,18 +7,18 @@ define('FILE_MANAGEMENT', 'data.json');
  * Configuration of fields for the page
  */
 $fields = [
-    'Basic Information' => [
+    'Basic Information'       => [
         'name',
         'birth date',
         'blood type'
     ],
-    'Contact Informantion' => [
+    'Contact Information'     => [
         'primary caretaker',
-        'caretaker number',
+        'caretaker number' => false,
         'emergency contact',
-        'contact number',
+        'contact number'   => false,
         'primary doctor',
-        'doctor number',
+        'doctor number'    => false,
     ],
     'Medical Details Details' => [
         'medical issues',
