@@ -44,23 +44,23 @@ include 'header.inc.php';
 <div class="container features">
     <div class="row">
         <div class="col-lg-3">
-            <licon class="fa fa-qrcode" style="font-size:50px"></licon>
-            <h4>A SIMPLE TEMPORARY TATTOO DESIGN.</h4>
+            <span class="glyphicons glyphicons-qrcode"></span>
+            <h4>UNIVERSAL QR CODE.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="fa fa-eye-slash" style="font-size:50px"></licon>
-            <h4>EASY TO APPLY WHERE IT CAN BE HIDDEN FROM PATIENT VIEW.</h4>
+            <span class="glyphicons glyphicons-pencil"></span>
+            <h4>CUSTOMIZABLE PORTAL.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="fa fa-search" style="font-size:50px"></licon>
-            <h4>VIEW VITAL INFORMATION IMMEDIATELY...</h4>
+            <span class="glyphicons glyphicons-user-alert"></span>
+            <h4>EMERGENCY CONTACT.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <licon class="fa fa-medkit" style="font-size:50px"></licon>
-            <h4>OR SCAN THE QR CODE TO INVESTIGATE FURTHER.</h4>
+            <span class="glyphicons glyphicons-earphone"></span>
+            <h4>CAREGIVER NOTIFICATIONS.</h4>
         </div>
         <!-- col-lg-3 -->
     </div>
@@ -163,7 +163,7 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                <licon class="li_display"></licon>
+                                <span class="glyphicons glyphicons-pencil"></span>
                                 Customizable Portable
                             </a>
                         </div>
@@ -181,7 +181,7 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                <licon class="li_like"></licon>
+                                <span class="glyphicons glyphicons-user-alert"></span>
                                 Emergency Contact
                             </a>
                         </div>
@@ -199,7 +199,7 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                                <licon class="li_phone"></licon>
+                                <span class="glyphicons glyphicons-earphone"></span>
                                 Caregiver Notifications
                             </a>
                         </div>
