@@ -265,7 +265,7 @@ include 'header.inc.php';
         <br>
 
         <div class="col-lg-6 col-lg-offset-3">
-            <h2 class="centered">BEST PRICES IN TOWN.</h2>
+            <h2 class="centered">Competitively priced. FDA approved. HSA reimbursable.</h2>
             <hr>
             <br>
             <br>
@@ -279,21 +279,22 @@ include 'header.inc.php';
             <!-- START PRICING TABLE -->
             <div class="pricing-option">
                 <div class="pricing-top">
-                    <span class="pricing-edition">Starter</span>
+                    <span class="pricing-edition">Starter Pack</span>
                         <span class="price">
                             <sup>$</sup>
-                            <span class="price-amount">19</span>
+                            <span class="price-amount">6</span>
                             <small>/mo</small>
                         </span>
                 </div>
                 <ul>
-                    <li><strong>10GB</strong> Storage</li>
-                    <li>Up to <strong>10</strong> Users</li>
-                    <li><strong>5</strong> Domains</li>
-                    <li><strong>Free</strong> Setup</li>
-                    <li><strong>1-year</strong> Free support *</li>
+                    <li><strong>6</strong> Simple, Premium Tattoos</li>
+                    <li>Personalized MyQR Alert Profile</li>
+                    <li><strong></strong> Notify caregiver when scanned</li>
+                    <li><strong>Fast, easy,</strong> lasts 1-5 days</li>
+                    <li>Suitable for <strong>early stages</strong> of dementia</li>
+                    <li>Updated each month</li>
                 </ul>
-                <a href="index.html#" class="pricing-signup">Sign up</a>
+                <a href="index.html#" class="pricing-signup">Free sample</a>
             </div>
             <!-- /pricing-option -->
             <!-- END PRICING TABLE -->
@@ -304,21 +305,22 @@ include 'header.inc.php';
             <!-- START PRICING TABLE -->
             <div class="pricing-option">
                 <div class="pricing-top">
-                    <span class="pricing-edition">Standard</span>
+                    <span class="pricing-edition">Premium Tattoos</span>
                         <span class="price">
                             <sup>$</sup>
-                            <span class="price-amount">29</span>
+                            <span class="price-amount">12</span>
                             <small>/mo</small>
                         </span>
                 </div>
                 <ul>
-                    <li><strong>20GB</strong> Storage</li>
-                    <li>Up to <strong>20</strong> Users</li>
-                    <li><strong>10</strong> Domains</li>
-                    <li><strong>Free</strong> Setup</li>
-                    <li><strong>2-year</strong> Free support *</li>
+                    <li><strong>15 Personalized</strong> Temporary Tattoos</li>
+                    <li>Personalize tattoo design and data</li>
+                    <li>Notify caregiver when scanned</li>
+                    <li><strong>Fast, easy,</strong> lasts 1-5 days</li>
+                    <li>Suitable for <strong>middle to later stages</strong> of dementia</li>
+                    <li>Connect directly to Medicalert</li>
                 </ul>
-                <a href="index.html#" class="pricing-signup">Sign up</a>
+                <a href="index.html#" class="pricing-signup">Subscribe</a>
             </div>
             <!-- /pricing-option -->
             <!-- END PRICING TABLE -->
@@ -329,22 +331,22 @@ include 'header.inc.php';
             <!-- START PRICING TABLE -->
             <div class="pricing-option">
                 <div class="pricing-top">
-                    <span class="special-label">OFFER!</span>
-                    <span class="pricing-edition">Ultimate</span>
+                    <span class="pricing-edition">Tattoos + Iron-on</span>
                         <span class="price">
                             <sup>$</sup>
-                            <span class="price-amount">69</span>
+                            <span class="price-amount">24</span>
                             <small>/mo</small>
                         </span>
                 </div>
                 <ul>
-                    <li><strong>150GB</strong> Storage</li>
-                    <li><strong>Unlimited</strong> Users</li>
-                    <li><strong>50</strong> Domains</li>
-                    <li><strong>Free</strong> Setup</li>
-                    <li><strong>5-year</strong> Free support *</li>
+                    <li><strong>15 Personalized</strong> Tattoos + 2 Iron-on Labels</li>
+                    <li>Personalize design, decorate body and clothing</li>
+                    <li>Notify caregiver when scanned</li>
+                    <li><strong>Fast, easy</strong> lasts 1-5 days</li>
+                    <li>Suitable for <strong>middle to later stages</strong> of dementia</li>
+                    <li>Connect directly to Medicalert</li>
                 </ul>
-                <a href="index.html#" class="pricing-signup">Sign up</a>
+                <a href="index.html#" class="pricing-signup">Subscribe</a>
             </div>
             <!-- /pricing-option -->
             <!-- END PRICING TABLE -->
@@ -355,22 +357,17 @@ include 'header.inc.php';
             <!-- START PRICING TABLE -->
             <div class="pricing-option">
                 <div class="pricing-top">
-                    <span class="pricing-edition">Business</span>
+                    <span class="pricing-edition">NFC Package</span>
                         <span class="price">
                             <sup>$</sup>
-                            <span class="price-amount">49</span>
-                            <small>/mo</small>
+                            <span class="price-amount">TBD</span>
                         </span>
                 </div>
-                <!-- /pricing-top -->
                 <ul>
-                    <li><strong>40GB</strong> Storage</li>
-                    <li>Up to <strong>40</strong> Users</li>
-                    <li><strong>25</strong> Domains</li>
-                    <li><strong>Free</strong> Setup</li>
-                    <li><strong>3-year</strong> Free support *</li>
+                    <li><strong>Coming soon</strong></li>
+                    
                 </ul>
-                <a href="index.html#" class="pricing-signup">Sign up</a>
+                <a href="index.html#" class="pricing-signup">Subscribe</a>
             </div>
             <!-- /pricing-option -->
             <!-- END PRICING TABLE -->
@@ -441,7 +438,7 @@ include 'header.inc.php';
                 <br>
 
                 <p><img class="centered img-circle" src="assets/img/pic.jpg" alt="" width="50px" height="50px"></p>
-                <p><i>Mike </i></p>
+                <p><i>Mike Belleville</i></p>
                 <p><i>I want my family to always know that I'm safe.</i></p>
             </div>
 
