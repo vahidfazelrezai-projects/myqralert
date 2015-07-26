@@ -44,22 +44,22 @@ include 'header.inc.php';
 <div class="container features">
     <div class="row">
         <div class="col-lg-3">
-            <span class="glyphicons glyphicons-qrcode"></span>
+            <licon class="fa fa-qrcode" style="font-size:50px"></licon>
             <h4>UNIVERSAL QR CODE.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <span class="glyphicons glyphicons-pencil"></span>
+            <licon class="fa fa-eye-slash" style="font-size:50px"></licon>
             <h4>CUSTOMIZABLE PORTAL.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <span class="glyphicons glyphicons-user-alert"></span>
+            <licon class="fa fa-search" style="font-size:50px"></licon>
             <h4>EMERGENCY CONTACT.</h4>
         </div>
         <!-- col-lg-3 -->
         <div class="col-lg-3">
-            <span class="glyphicons glyphicons-earphone"></span>
+            <licon class="fa fa-medkit" style="font-size:50px"></licon>
             <h4>CAREGIVER NOTIFICATIONS.</h4>
         </div>
         <!-- col-lg-3 -->
@@ -144,7 +144,7 @@ include 'header.inc.php';
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                <span class="fa fa-qrcode" style="color:#1abc9c; font-size:35px; padding-right:20px"></span>
+                                
                                 Universal QR Code
                             </a>
                         </div>
